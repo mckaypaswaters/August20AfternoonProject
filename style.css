@@ -58,7 +58,6 @@ header {
     font-size: 12px;
 }
 
-
 .subscribe {
     height: 40px;
     width: 90px;
@@ -66,4 +65,17 @@ header {
     background: #ff0063;
     justify-content: right;
     color: white;
+}
+.flexColumn {
+    display: flex;
+    position: relative;
+    top: 160px;
+    align-items: flex-start;
+    justify-content: left;
+}
+.whiteColumn {
+    width: 100px;
+    height: 200vh;
+    background: white;
+    justify-content: left;
 }
